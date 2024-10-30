@@ -2,6 +2,12 @@
 Changelog for package rqt_image_overlay_layer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fix deprecated headers and methods (`#68 <https://github.com/ros-sports/rqt_image_overlay/issues/68>`_)
+* Change rclcpp::get_typesupport_handle to rclcpp::get_message_typesupport_handle (`#67 <https://github.com/ros-sports/rqt_image_overlay/issues/67>`_)
+* Contributors: Kenji Brameld
+
 0.3.1 (2022-10-29)
 ------------------
 
