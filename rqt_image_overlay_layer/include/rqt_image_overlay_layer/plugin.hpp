@@ -22,7 +22,7 @@
 #include "rclcpp/serialization.hpp"
 #include "rosidl_runtime_cpp/traits.hpp"
 #include "rcpputils/asserts.hpp"
-#include "message_filters/message_traits.h"
+#include "message_filters/message_traits.hpp"
 
 namespace rqt_image_overlay_layer
 {
