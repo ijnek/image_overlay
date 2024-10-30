@@ -18,7 +18,7 @@
 #include <QMenu>
 #include <vector>
 #include <memory>
-#include "rqt_gui_cpp/plugin.h"
+#include "rqt_gui_cpp/plugin.hpp"
 
 namespace Ui {class ImageOverlay;}
 namespace rqt_image_overlay
