@@ -73,7 +73,7 @@ protected:
   Plugin()
   : library(rclcpp::get_typesupport_library(rosidl_generator_traits::name<T>(),
       "rosidl_typesupport_cpp")),
-    stringTypesupport(rclcpp::get_typesupport_handle(rosidl_generator_traits::name<T>(),
+    stringTypesupport(rclcpp::get_message_typesupport_handle(rosidl_generator_traits::name<T>(),
       "rosidl_typesupport_cpp", *library)),
     base(stringTypesupport)
   {
